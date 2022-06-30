@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author"  content="Bruno C.Gomes" />
+    <title>Document</title>
+
+    <link href="css/estilo.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Trabalhando com JSON</h1>
+        </div>
+        <hr>
+    </header>
+    <main>
+        <div class="container">
+            <form onsubmit="return false;">
+                <label>Nome Completo:</label><br/>
+                <input type="text" id="nome" placeholder="Nome Completo"><br/><br/>
+                <label>idade:</label><br/>
+                <input type="number" id="idade" placeholder="idade" value="18"><br/><br/>
+                <label>email:</label><br/>
+                <input type="email" id="email" placeholder="usuario@servidor.com""><br/><br/>
+                <label>Profissão:</label><br/>
+                <input type="text" id="profissao" placeholder="Profissão"><br/><br/>
+                <button onclick="dados();">Enviar</button>
+            </form>
+            <hr/>
+            <div id="result"></div>
+        </di>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
