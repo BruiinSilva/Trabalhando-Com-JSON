@@ -9,7 +9,7 @@ Feito no curso Front end do senai
 
 * [HTML básico](https://www.w3schools.com/html/)
 * [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-* {JS básico](https://www.w3schools.com/js/)
+* [JS básico](https://www.w3schools.com/js/)
 
 ## 🚀 Vamos começar! 🚀
 
